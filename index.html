@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simple Landing Page</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#1f2937}
+header{padding:20px 8%;display:flex;justify-content:space-between;background:#f8fafc}
+.hero{text-align:center;padding:100px 20px;background:#eff6ff}
+.hero h1{font-size:42px}
+.hero p{color:#64748b;font-size:18px}
+.btn{display:inline-block;background:#2563eb;color:white;padding:13px 22px;text-decoration:none;border-radius:8px}
+.features{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;padding:50px 20px}
+.feature{padding:25px;background:#f8fafc;border-radius:10px;width:250px}
+footer{text-align:center;padding:25px;background:#f1f5f9}
+@media(max-width:600px){.hero h1{font-size:30px}}
+</style>
+</head>
+<body>
+<header>
+<strong>SimpleSite</strong>
+<nav>Home | About | Contact</nav>
+</header>
+
+<section class="hero">
+<h1>Build Something Great</h1>
+<p>A clean and simple landing page template.</p>
+<a class="btn" href="#features">Explore Features</a>
+</section>
+
+<section class="features" id="features">
+<div class="feature">
+<h2>Simple</h2>
+<p>Easy to understand layout.</p>
+</div>
+<div class="feature">
+<h2>Responsive</h2>
+<p>Works on different screen sizes.</p>
+</div>
+<div class="feature">
+<h2>Reusable</h2>
+<p>Customize it for your projects.</p>
+</div>
+</section>
+
+<footer>SimpleSite - HTML Template Practice</footer>
+</body>
+</html>
