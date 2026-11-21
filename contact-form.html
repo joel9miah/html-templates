@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact Form</title>
+<style>
+body{font:16px Arial;max-width:620px;margin:40px auto;padding:16px}
+label{display:block;margin:14px 0 5px}
+input,textarea{width:100%;padding:10px;box-sizing:border-box}
+textarea{min-height:120px}
+button{margin-top:14px;padding:10px 16px}
+</style>
+</head>
+<body>
+<h1>Contact Us</h1>
+<p>This demo validates the form locally.</p>
+
+<form id="contact">
+<label for="name">Name</label>
+<input id="name" required maxlength="80">
+
+<label for="email">Email</label>
+<input id="email" type="email" required>
+
+<label for="message">Message</label>
+<textarea id="message" required maxlength="1000"></textarea>
+
+<button>Validate Message</button>
+</form>
+
+<p id="status" role="status"></p>
+
+<script>
+document.querySelector('#contact').addEventListener(
+ 'submit',
+ event => {
+  event.preventDefault();
+  const name = document.querySelector('#name').value.trim();
+  document.querySelector('#status').textContent =
+    'Thanks, ' + name +
+    '. Your message passed local validation. No data was sent.';
+ }
+);
+</script>
+</body>
+</html>
