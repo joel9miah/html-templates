@@ -1,19 +1,9 @@
-
 # HTML Templates
 
-A collection of simple HTML templates.
+A repository focused on HTML page templates.
 
-## Templates
-- Landing page
-- About page
-- Contact page
-- Blog layout
-- Portfolio layout
+## Purpose
+Explore web page structure and reusable layouts.
 
-## Technologies
-- HTML
-- CSS
-
-## Goal
-Practice building clean and responsive web pages.
-  
+## Getting Started
+Open the available HTML files in a web browser.
