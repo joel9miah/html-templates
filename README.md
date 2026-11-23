@@ -1,9 +1,23 @@
-# HTML Templates
+## Template Customization Guide
 
-A repository focused on HTML page templates.
+### Getting Started
 
-## Purpose
-Explore web page structure and reusable layouts.
+1. Open the selected HTML template.
+2. Review its page structure.
+3. Customize the page title.
+4. Update text and content.
+5. Adjust CSS styles.
+6. Test the page in a browser.
 
-## Getting Started
-Open the available HTML files in a web browser.
+### Best Practices
+
+- Use semantic HTML elements.
+- Add descriptive page titles.
+- Maintain readable code.
+- Check mobile responsiveness.
+- Validate HTML structure.
+
+### Browser Testing
+
+Test templates in modern web browsers
+before publishing them.
