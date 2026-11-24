@@ -21,3 +21,12 @@
 
 Test templates in modern web browsers
 before publishing them.
+## Manual Testing Checklist
+
+- [ ] Open an available HTML template in a browser.
+- [ ] Check page headings, images and link destinations.
+- [ ] Review the layout on desktop and mobile widths.
+
+### Test Notes
+
+Record the observed result and any reproducible issue after running the tests.
